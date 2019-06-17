@@ -1,4 +1,4 @@
-
+<<<<<<< HEAD
 *.iml
 .gradle
 /local.properties
@@ -8,7 +8,7 @@
 /build
 /captures
 .externalNativeBuild
-
+=======
 # Built application files
 *.apk
 *.ap_
@@ -74,4 +74,4 @@ fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
 fastlane/readme.md
-
+>>>>>>> f930e4494ea0eb8979cddfc62b105904a15811a9
