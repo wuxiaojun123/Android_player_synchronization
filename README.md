@@ -5,4 +5,4 @@
 效果视频在res的raw文件夹下。大家可以看下效果再看是否符合自己的需求
 
 
-// [![Watch the video](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](http://youtu.be/vt5fpE0bzSY)
+// 
