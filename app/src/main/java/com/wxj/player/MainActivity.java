@@ -3,6 +3,9 @@ package com.wxj.player;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+/***
+ * 首页
+ */
 public class MainActivity extends AppCompatActivity {
 
     private static final String					URL		= "http://playback.sayabc.com/test/2704908/7892.mp4";
