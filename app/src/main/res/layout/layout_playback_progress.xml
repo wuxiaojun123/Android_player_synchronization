@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_rl_control_player"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="@dimen/dimen_15"
+    android:layout_marginLeft="@dimen/dimen_20"
+    android:layout_marginRight="@dimen/dimen_20"
+    android:layout_marginTop="@dimen/dimen_20"
+    android:background="#000000">
+
+    <ImageView
+        android:id="@+id/id_iv_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:src="@mipmap/img_playback_play" />
+
+    <TextView
+        android:id="@+id/id_tv_play_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/dimen_20"
+        android:layout_toRightOf="@id/id_iv_play"
+        android:text="00:00"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/dimen_10" />
+
+    <TextView
+        android:id="@+id/id_tv_total_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/dimen_20"
+        android:text="00:00"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/dimen_10" />
+
+    <SeekBar
+        android:id="@+id/id_seekbar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/dimen_15"
+        android:layout_marginRight="@dimen/dimen_15"
+        android:layout_toLeftOf="@id/id_tv_total_time"
+        android:layout_toRightOf="@id/id_tv_play_time"
+        android:max="100"
+        android:maxHeight="4dp"
+        android:minHeight="4dp"
+        android:progressDrawable="@drawable/layer_list_play_video_progress"
+        android:thumb="@mipmap/img_playback_progress" />
+
+</RelativeLayout>
